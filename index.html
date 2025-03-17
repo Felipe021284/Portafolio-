@@ -1,0 +1,778 @@
+<!-- Creado por felipe jimenez -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    
+    <style>
+        :root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+H1,H2{
+    animation: animate 20s infinite linear;
+    text-shadow: -1px 1px white;
+    
+}
+
+
+@keyframes animate
+
+{
+
+    0%,100%{
+
+        color: white;
+
+    }
+
+    25%{
+
+        color: deeppink;
+
+    }
+
+    50%{
+
+        color:deepskyblue;
+
+    }
+
+    75%{
+
+        color: black;
+
+    }
+
+}
+
+H1{
+    font-size: 40px;
+}
+span,p,h3{
+color:white;
+}
+
+
+p{
+
+margin-top: 0.5rem;
+
+
+font-size: 0.875rem;
+
+}
+
+a{
+    color:deeppink;
+    font-size:0.875rem;
+}
+
+
+
+
+
+.uno{
+    /*background-color:white;*/
+    background-size: 300%;
+    background-image: var(--gradient);
+  -webkit-animation: bg-animation 10s infinite;
+          animation: bg-animation 10s infinite;
+}
+
+@-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+
+
+}
+
+.dos{
+    margin-top: 1rem; /* mt-4 */
+
+padding-left: 1rem; /* px-4
+
+*/
+
+padding-right: 1rem; /* px-4 */
+
+padding-top: 1rem; /* py-4 */
+
+padding-bottom: 1rem; /* py-4 */
+
+
+background-color: rgba(0,0,0,.1);
+/*background-color:red; 
+bg-gray-800 */
+
+border-radius: 0.5rem; /*
+
+rounded-1g */
+}
+
+.tres{
+
+display: inline-flex;
+
+align-items: center;
+
+border-radius: 0.375rem; /*
+
+rounded-md */
+
+background-color:rgba(0,0,0,.2); /*
+
+bg-red-600 */
+
+padding-left: 0.5rem; /* px-2 */
+
+padding-right: 0.5rem; /*
+
+px-2 */
+
+padding-top: 0.25rem; /* py-1 */
+
+padding-bottom: 0.25rem; /* py-1 */
+
+font-size: 0.875rem; /*
+
+text-xs */
+
+font-weight: 500; /*
+
+font-medium */
+
+color: #ffffff; /* text-white */
+
+box-shadow: 0 0 0 1px rgba(0, 0,0,0.05); /* ring-1 */
+
+}
+
+.cuatro{
+
+background-color:rgba(0,0,0,.2); /*
+
+bg-red-700 */
+
+color: #d1d5db; /*
+
+text-gray-300 */
+
+border-radius: 100%; /*
+
+rounded-full */
+
+padding-left: 0.75rem; /*
+
+px-3 */
+
+padding-right: 0.75rem; /*
+
+px-3 */
+
+padding-top: 0.25rem; /* py-1 */
+
+padding-bottom: 0.25rem; /*
+
+py-1 */
+
+font-size: 0.875rem; /*
+
+text-sm */
+
+font-weight: 600; /*
+
+font-semibold */
+
+}
+
+.cinco{
+
+
+margin-top: 1rem; /* mt-4 */
+
+padding-left: 2rem; /* px-8 */
+
+padding-right: 2rem; /* px-8 */
+
+padding-top: 1.5rem; /* py-6 */
+
+padding-bottom: 1.5rem; /* py-6 */
+
+background-color:rgba(0,0,0,.2); /*
+
+bg-red-700 */
+
+border-radius: 0.5rem; /*
+
+rounded-1g */
+
+}
+.seis{
+
+padding-left: 2rem;
+
+padding-right: 2rem;
+
+padding-top: 1.5rem; 
+
+padding-bottom: 1.5rem; 
+
+background-color:rgba(0,0,0,.2); 
+
+border-radius: 0.5rem; 
+
+
+
+}
+
+.siete{
+
+padding-left: 8px;
+
+padding-right: 8px;
+
+padding-top: 6px;
+
+padding-bottom: 6px;
+
+background-color:rgba(0,0,0,.2); /*
+
+equivalente a bg-red-800 */
+
+border-radius: 0.5rem;
+
+/*equivalente a rounded-lg */
+
+
+
+}
+
+.ocho{
+color:white;
+
+padding-left: 2px;
+
+padding-right: 2px;
+
+padding-top: 1px;
+
+padding-bottom: 1px;
+
+background-color: rgba(0,0,0,.2); /*
+
+equivalente a bg-red-700 */
+
+border-radius:20%;
+
+/*
+
+equivalente a rounded-1g */
+
+}
+
+.nueve{
+
+margin-top: 20px;
+
+background-color: rgba(0,0,0,.1); /*
+
+Color rojo oscuro */
+
+padding-top: 10px;
+
+padding-bottom: 10px;
+
+border-radius: 0.5rem; /*
+
+Borde redondeado */
+
+}
+.diez{
+margin-top:0px;
+margin-bottom:20px;
+
+background-color:rgba(0,0,0,.2); /*
+
+Color rojo oscuro 700 */
+
+border-radius: 0.5rem; /*
+
+Borde redondeado */
+
+padding: 0.5rem; /* Espacio
+
+interior */
+
+}
+
+.once{
+
+background-color:black; /*
+
+Color rojo oscuro 800 */
+
+padding-top: 1rem; /* Espacio superior */
+
+padding-bottom: 1rem; /*
+
+Espacio inferior */}
+
+.doce {
+
+display: flex;
+
+align-items: center;
+
+margin-top: 0.25rem;
+
+gap: 0.5rem;
+
+font-size: 0.75rem;
+
+color:white;
+
+}
+.trece{
+    font-size:12.5px;
+}
+
+.catorce{
+    
+        color:deepskyblue;
+    
+}
+
+
+
+    </style>
+  
+  
+</head>
+
+<body class="bg-gray-900 text-white">
+
+   <header class="bg-black text-white text-3xl sm:text-4xl font-bold p-3 sticky top-0">Portfolio.</header>
+
+   
+        
+        <main class="uno">
+        <div class="container mx-auto px-4">
+ 
+
+            <!-- Profile Section -->
+            <section class="dos">
+  
+             <div class="flex items-center space-x-4">
+ 
+          <img src="https://i.ibb.co/7zf19fm/IMG-20220916-180312.png
+          "
+            alt="Profile Image" class="h-28 w-28 rounded-lg">
+        <div>
+            <h1>FELIPE</h1>
+            <div class="flex items-center mt-1 space-x-2">
+                <span class="tres"span
+                    >
+                    <h2>DISEÑADOR WEB</h2>
+                    </span>
+                
+            </div>
+            <div class="flex items-center mt-2 text-sm text-gray-400 space-x-2">
+                <span class="iconify" data-icon="bi:geo-alt-fill" data-inline="false"></span>
+                <p>Guadalajara, Jalisco,Mexico</p>
+            
+            </div>
+        </div>
+    </div>
+    
+        <div class="flex flex-wrap mb-4 mt-4">
+                    
+                    <span class="cuatro"><h3>Visual Studio</h3></span>
+                    <span class="cuatro"><h3>Github</h3> </span>
+                    
+                    
+                </div>
+            
+                <div class="cinco">
+                    <h2 class="text-lg font-bold leading-7 text-white">Acerca de mi</h2>
+                    <p  >
+                        
+
+Hola a todos, soy Felipe, un desarrollador web apasionado y siempre ansioso por aprender e innovar en mi trabajo atravez de mi conocimiento.
+                    </p>
+                </div>
+            </section>
+
+           <!-- Skills Section -->
+<section class="mt-4">
+    <div class="seis">
+        <h2 class="text-lg font-bold leading-7 text-white">MIS HABILIDADES</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+            
+            <div>
+                <span class="skill-badge">HTML</span>
+                <div class="doce">
+                    <span>90% DOMINADO</span>
+                    
+                </div>
+            </div>
+            
+            <div>
+                <span class="skill-badge">CSS</span>
+                <div class="doce">
+                    <span>80% DOMINADO</span>
+                    
+                </div>
+            </div>
+           
+            <div>
+                <span class="skill-badge">PHP</span>
+                <div class="doce">
+                    <span>70% DOMINADO</span>
+                    
+                </div>
+            </div>
+            
+            <!--div>
+                <span class="skill-badge">CPP</span>
+                <div class="flex items-center mt-1 space-x-2 text-xs text-gray-400">
+                    <span>60% Complete</span>
+                    <span>From Sololearn</span>
+                </div>
+            </div>
+            
+            <div>
+                <span class="skill-badge">Ruby on Rails</span>
+                <div class="flex items-center mt-1 space-x-2 text-xs text-gray-400">
+                    <span>75% Complete</span>
+                    <span>From Sololearn</span>
+                </div>
+            </div>
+            
+            <div>
+                <span class="skill-badge">Unreal Engine</span>
+                <div class="flex items-center mt-1 space-x-2 text-xs text-gray-400">
+                    <span>65% Complete</span>
+                    <span>From official documentation</span>
+                </div>
+            </div>
+            
+            <div>
+                <span class="skill-badge">Python</span>
+                <div class="flex items-center mt-1 space-x-2 text-xs text-gray-400">
+                    <span>80% Complete</span>
+                    <span>From SoloLearn</span>
+                </div>
+            </div>
+            
+            <div>
+                <span class="skill-badge">Blender</span>
+                <div class="flex items-center mt-1 space-x-2 text-xs text-gray-400">
+                    <span>70% Complete</span>
+                    <span>From YouTube tutorials</span>
+                </div>
+            </div-->
+        </div>
+    </div>
+</section> 
+
+          <!-- Work Section -->
+<section class="mt-4">
+    <div class="siete">
+        <h2 class="text-lg font-bold leading-7 text-white">PROYECTOS</h2>
+        <div class="mt-4 space-y-6">
+            <!-- Project 1 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">TARJETA DE PRESENTACION DIGITAL</h3>
+                    <p>Tarjeta de presentacion con acceso a redes sociales</p>
+                    
+                    <a href="https://felipe021284.github.io/MI-TARJETA-/">
+                    Link
+                </a>
+                    <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400">
+                        <span class="ocho">HTML</span>
+                        <span class="ocho">CSS</span>
+                        <span>SEPTIEMBRE 2022</span>
+                    </div>
+                </div>
+                <!--a href="https://felipe021284.github.io/MI-TARJETA-/" class="text-blue-500 hover:text-blue-600 mt-2 block">
+                    Link
+                </a-->
+            </div>
+            <!-- Project 2 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">CATALOGO </h3>
+                    <p>Catalogo de productos por medio de un slider</p>
+                    
+                    <a href="https://felipe021284.github.io/FARA-SALON-BOUTIQUE-/
+                    " >
+                    Link
+                </a>
+                    <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400">
+                        <span class="ocho">HTML</span>
+                        <span class="ocho">CSS</span>
+                        <span class="ocho">JS</span>
+                        <span>OCTUBRE 2022</span>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Project 3 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">INVITACION DIGITAL</h3>
+                    <p>Invitacion digital con acceso a ubicaciones en maps y tambien acceso a un  audio configurado </p>
+                    
+                    <a href="https://felipe021284.github.io/INVITACI-N-DE-BODA-/
+                    ">
+                    Link
+                </a>
+                    <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400">
+                        <span class="ocho">HTML</span>
+                        <span class="ocho">CSS</span>
+                        <span class="ocho">JS</span>
+                        <span>SEPTIEMBRE 2022</span>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Project 4 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">PLAYLIST</h3>
+                    <p>Tarjeta de presentacion y playlist de un album musical con acceso a redes sociales</p>
+                    
+                    <a href="https://felipe021284.github.io/COMUNIDAD-5-/
+                    ">
+                    Link
+                </a>
+                    <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400">
+                        <span class="ocho">HTML</span>
+                        <span class="ocho">CSS</span>
+                        <span class="ocho">JS</span>
+                        <span>NOVIEMBRE 2022</span>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Project 5 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">MANUAL DE EQUIPOS</h3>
+                    <p>Manual diseñado para un proyecto de una empresa el cual contiene toda la informacion sobre los equipos asignados</p>
+                 <a href="https://felipe021284.github.io/DEPARTAMENTO-DE-PRUEBAS-/
+                 ">
+                    Link
+                </a>  
+                    <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400">
+                        <span class="ocho">HTML</span>
+                        
+                        <span class="ocho">CSS</span>
+                        <span>JUNIO 2023</span>
+                    </div>
+                </div>
+ 
+            </div>
+            <!-- Project 6 -->
+            <div class="flex justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold">ROL DE TURNOS</h3>
+                    <p>Proyecto creado para una empresa que mostrara cuales eran los turnos de los empleados mostrado en un calendario mes por mes dado a que rolaban turnos de dia y noche cada dos dias  </p>
+               <a href="https://felipe021284.github.io/Sektor/index
+               "> 
+                    Link
+                </a>   
+                <div class="flex items-center mt-2 space-x-2 text-xs text-gray-400"> 
+                        <span class="ocho">HTML</span>
+                        
+                        <span class="ocho">CSS</span>
+                        <span>ENERO 2025</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>  
+
+<!-- Certificate Section -->
+<section class="nueve">
+    <div class="container mx-auto px-4">
+        <h2 class="text-lg font-bold leading-7 text-white mb-4">Certificados</h2>
+        
+        <!-- Certificate 1-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-OPYHMRXI/image/png?t=638232536431499680
+                " alt="Certificate 3" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Junio, 2023</p>
+            </div>
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+            <!-- Certificate 2 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-CKWDHP1A/image/png?t=638241988366462300
+                " alt="Certificate 1" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Julio,2023</p>
+            </div>
+            
+            <!-- Certificate 3 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-I52XVXUL/image/png?t=638591795657499370
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Agosto,2024</p>
+            </div>
+            
+            
+             <!-- Certificate 4 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-FHXWB4RN/image/png?t=638673147250214410
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Noviembre,2024</p>
+            </div>
+            
+            
+            
+             
+            
+             <!-- Certificate 5-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-EGBBSFLH/image/png?t=638689875145602360
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Diciembre,2024</p>
+            </div>
+            
+            <!-- Certificate 6 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-ZPXRFYUM/image/png?t=638694326313163740
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Diciembre,2024</p>
+            </div>
+            
+            <!-- Certificate 7 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-WYIN0LYN/image/png?t=638704858065595940
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Diciembre,2024</p>
+            </div>
+            
+             <!-- Certificate 8 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-OQGUUWCG/image/png?t=638699230268303700
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Diciembre,2024</p>
+            </div>
+            
+            
+            
+            
+            
+             <!-- Certificate 9 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-ZWVYAEL1/image/png?t=638736809270961310
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Enero,2025</p>
+            </div>
+            
+              <!-- Certificate 10 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-SV6BLI3K/image/png?t=638732064313781010
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Enero,2025</p>
+            </div>
+            
+             <!-- Certificate 11-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-RSOZDASE/image/png?t=638722570074382030
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Enero,2025</p>
+            </div>
+             <!-- Certificate 12 -->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-ARNHI6FF/image/png?t=638752970673724260
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Febrero,2025</p>
+            </div>
+            
+             <!-- Certificate 13-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-67D2VBTL/image/png?t=638766355655556400
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Marzo,2025</p>
+            </div>
+            
+             <!-- Certificate 13-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-FW45CVEJ/image/png?t=638767614984498770
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece">Recibido en Marzo,2025</p>
+            </div>
+            
+              <!-- Certificate 14-->
+            <div class="diez">
+                <img src="https://api2.sololearn.com/v2/certificates/CC-6GJCGCOM/image/png?t=638774542324504580
+                " alt="Certificate 2" class="h-60 w-full object-cover rounded-lg mb-2">
+                <p class="trece" >Recibido en Marzo,2025</p>
+            </div>
+            
+             
+            
+            
+            
+            
+           
+            
+            
+           
+            
+        </div>
+    </div>
+</section>
+
+    
+        </div>
+    </main>
+
+       <!-- Footer -->
+<footer class="once">
+    
+    <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+    
+        <div class="text-gray-400 text-sm">
+            <p class ="catorce">Contact: felipemartinez84@live.com.mx</p>         
+        </div>
+        
+        
+</footer>
+
+</body>
+
+</html>
